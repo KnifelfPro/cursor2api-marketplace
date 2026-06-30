@@ -42,7 +42,8 @@ Use cursorx to call Cursor directly gpt-5.5
 ## Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/KnifelfPro/cursor2api-marketplace
+gemini extensions install https://github.com/KnifelfPro/cursor2api-marketplace --consent
+gemini extensions config cursor2api CURSOR_API_KEY
 ```
 
 Use:
