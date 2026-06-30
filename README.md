@@ -13,9 +13,11 @@ Set `CURSOR_API_KEY` in your shell or in the target client config.
 
 ## Claude Code
 
-```bash
-claude plugin marketplace add KnifelfPro/cursor2api-marketplace
-claude plugin install cursor2api@cursor2api
+Run these inside Claude Code:
+
+```text
+/plugin marketplace add KnifelfPro/cursor2api-marketplace
+/plugin install cursor2api@cursor2api
 ```
 
 Use:
@@ -24,6 +26,10 @@ Use:
 /cursor2api:cursor Fix the failing tests gpt-5.5
 /cursor2api:cursorx Fix the failing tests gpt-5.5
 ```
+
+The plugin installs the Claude command files and the `cursor2api` MCP config.
+It still expects `cursor2api-mcp` to be available on `PATH` and
+`CURSOR_API_KEY` to be set.
 
 ## Codex
 

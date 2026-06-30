@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "cursor2api",
+  "description": "Run Cursor models from Claude Code through cursor2api MCP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Cursor2API"
+  },
+  "repository": "https://github.com/KnifelfPro/cursor2api-marketplace",
+  "license": "MIT",
+  "keywords": ["cursor", "mcp", "coding-agent"],
+  "commands": "./plugins/cursor2api/commands/"
+}
