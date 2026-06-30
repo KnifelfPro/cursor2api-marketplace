@@ -1,0 +1,22 @@
+{
+  "name": "cursor2api",
+  "owner": {
+    "name": "Cursor2API"
+  },
+  "description": "Cursor2API plugins and command templates for coding agents.",
+  "plugins": [
+    {
+      "name": "cursor2api",
+      "source": "./plugins/cursor2api",
+      "displayName": "Cursor2API",
+      "description": "Run Cursor models through cursor2api MCP.",
+      "author": {
+        "name": "Cursor2API"
+      },
+      "repository": "https://github.com/KnifelfPro/cursor2api-marketplace",
+      "license": "MIT",
+      "category": "Developer Tools",
+      "tags": ["cursor", "mcp", "coding-agent"]
+    }
+  ]
+}
